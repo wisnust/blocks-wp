@@ -13,7 +13,7 @@ if ( !class_exists('acf') ) {
 }
 
 /**
- * Register FiveTool Block Category
+ * Register Blocks WP Block Category
  */
 function blocks_wp_block_categories( $categories, $post ) {
 	return array_merge(
