@@ -6,15 +6,19 @@
 
 body {
 	color: $color-text;
-	font-family: $Lato;
-	font-size: 18px;
-	font-weight: 600;
+	font-family: $Muli;
+	font-size: 16px;
+	font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
 	@include media-breakpoint-down(sm) {
 		font-size: 16px;
 	}
-}   
+}
+
+@include font-face('Muli', '../../fonts/Muli', 400);
+@include font-face('Muli', '../../fonts/Muli-SemiBold', 500);
+@include font-face('Muli', '../../fonts/Muli-Bold', 700);
 
 a, .btn, .btn-link { 
 	transition: color .3s, background-color .3s, border .3s;
