@@ -187,6 +187,16 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/acf-blocks.php';
 
 /**
+ * Post Types
+ */
+require get_template_directory() . '/inc/post-types.php';
+
+/**
+ * Utilities
+ */
+require get_template_directory() . '/inc/utilities.php';
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
