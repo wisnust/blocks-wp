@@ -23,8 +23,8 @@
         },
         {
             "key": "field_60b9c75ecedfc",
-            "label": "Slider Post Meta Title",
-            "name": "slider_post_meta_title",
+            "label": "Slider Post First Title",
+            "name": "slider_post_first_title",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -42,8 +42,8 @@
         },
         {
             "key": "field_60b9c7bb5206c",
-            "label": "Slider Post Main Title",
-            "name": "slider_post_main_title",
+            "label": "Slider Post Second Title",
+            "name": "slider_post_second_title",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -58,6 +58,143 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_60b9caec25ab3",
+            "label": "Events Post",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60b9cb2a25ab5",
+            "label": "Select Post",
+            "name": "events_select_post",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "events"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "elements": "",
+            "min": "",
+            "max": "",
+            "return_format": "object"
+        },
+        {
+            "key": "field_60b9cb4225ab6",
+            "label": "Post Style",
+            "name": "events_post_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "full": "Full (show Title, Date and Excerpt)",
+                "simple": "Simple (only show Title)"
+            },
+            "default_value": "full",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_60b9caf325ab4",
+            "label": "News Post",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60b9cbb425ab8",
+            "label": "Select Post",
+            "name": "news_select_post",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type"
+            ],
+            "elements": "",
+            "min": "",
+            "max": "",
+            "return_format": "object"
+        },
+        {
+            "key": "field_60b9cb9e25ab7",
+            "label": "Post Style",
+            "name": "news_post_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "full": "Full (show Title, Date and Excerpt)",
+                "simple": "Simple (only show Title)"
+            },
+            "default_value": "full",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -77,5 +214,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1622788076
+    "modified": 1622812653
 }
