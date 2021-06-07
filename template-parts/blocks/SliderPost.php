@@ -97,7 +97,7 @@ $news_post_style = get_field('news_post_style');
                         <div class="col-md-6 col-lg-7 col-image">
                             <div class="slider-post-image">
                                 <a href="<?php the_permalink( $post->ID ); ?>"/>
-                                    <?php echo get_the_post_thumbnail( $post->ID, 'medium', array('class' => 'img-fluid') ); ?>
+                                    <?php echo get_the_post_thumbnail( $post->ID, 'large', array('class' => 'img-fluid') ); ?>
                                 </a>
                             </div>
                         </div>
@@ -134,8 +134,8 @@ $news_post_style = get_field('news_post_style');
             <a href="<?php echo get_home_url(); ?>/blog" class="badge-post-type">
                 News
             </a>
-        <?php endif; ?>
         </div>
+        <?php endif; ?>
 
     </div>
 </section>
